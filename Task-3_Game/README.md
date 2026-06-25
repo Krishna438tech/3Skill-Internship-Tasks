@@ -6,7 +6,7 @@ A fun and interactive Color Guessing Game built using React, JavaScript, HTML, a
 
 Add your deployed Vercel link here:
 
-https://your-vercel-link.vercel.app
+https://3-skill-internship-tasks.vercel.app/
 
 ---
 
