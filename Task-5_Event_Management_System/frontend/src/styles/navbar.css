@@ -1,0 +1,274 @@
+.navbar {
+  width: 100%;
+  min-height: 70px;
+  padding: 0 7%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.logo svg {
+  flex-shrink: 0;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 22px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav-links a {
+  color: #222;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #2563eb;
+}
+
+.btn-primary,
+.btn-outline,
+.btn-danger {
+  min-height: 40px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.btn-primary {
+  border: none;
+  background: #2563eb;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+  color: #ffffff !important;
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  border: 1px solid #2563eb;
+  color: #2563eb !important;
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: #eff6ff;
+  color: #1d4ed8 !important;
+  transform: translateY(-1px);
+}
+
+.btn-danger {
+  border: none;
+  background: #ef4444;
+  color: #ffffff;
+}
+
+.btn-danger:hover {
+  background: #dc2626;
+  transform: translateY(-1px);
+}
+
+.profile-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #2563eb !important;
+  white-space: nowrap;
+}
+
+.profile-link svg {
+  flex-shrink: 0;
+  font-size: 18px;
+}
+
+/* Normal navbar links */
+
+.nav-link {
+  position: relative;
+  padding: 8px 2px;
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  white-space: nowrap;
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.nav-link:hover {
+  color: #2563eb;
+}
+
+.nav-link.active {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 0;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #2563eb;
+  transition: width 0.25s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+/* Login and Register active state */
+
+.active-btn {
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+  transform: translateY(-1px);
+}
+
+/* Profile active state */
+
+.active-profile {
+  color: #2563eb !important;
+  font-weight: 600;
+}
+
+/* Tablet */
+
+@media (max-width: 992px) {
+  .navbar {
+    padding: 0 4%;
+    gap: 18px;
+  }
+
+  .nav-links {
+    gap: 14px;
+    font-size: 14px;
+  }
+
+  .btn-primary,
+  .btn-outline,
+  .btn-danger {
+    padding: 8px 13px;
+    font-size: 14px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .navbar {
+    min-height: auto;
+    padding: 15px 5%;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    position: sticky;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  .nav-links {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 16px;
+  }
+
+  .nav-link {
+    padding: 7px 2px;
+  }
+
+  .profile-link {
+    justify-content: center;
+  }
+}
+
+/* Small mobile */
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 14px 16px;
+  }
+
+  .nav-links {
+    gap: 10px 12px;
+    font-size: 14px;
+  }
+
+  .logo {
+    font-size: 21px;
+  }
+
+  .btn-primary,
+  .btn-outline,
+  .btn-danger {
+    min-height: 38px;
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+
+  .profile-link {
+    max-width: 100%;
+  }
+}
+
+/* Very small mobile */
+
+@media (max-width: 360px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .nav-link,
+  .profile-link {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .btn-primary,
+  .btn-outline,
+  .btn-danger {
+    width: 100%;
+  }
+}
