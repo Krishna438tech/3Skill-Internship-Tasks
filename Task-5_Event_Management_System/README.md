@@ -16,13 +16,13 @@ LinkedIn: https://www.linkedin.com/in/krishna-gopal-9a73b6326/
 
 ## 🚀 Frontend
 
-🔗 **Coming Soon**
+🔗 https://eventhub-frontend-red.vercel.app
 
 ---
 
 ## ⚙️ Backend API
 
-🔗 **Coming Soon**
+🔗 https://eventhub-backend-if5q.onrender.com
 
 ---
 
