@@ -16,7 +16,7 @@ LinkedIn: https://www.linkedin.com/in/krishna-gopal-9a73b6326/
 
 ## 🚀 Frontend
 
-🔗 https://eventhub-frontend-red.vercel.app
+🔗 https://eventhubkrishna.vercel.app
 
 ---
 
