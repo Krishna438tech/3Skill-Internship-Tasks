@@ -9,7 +9,7 @@ A modern full-stack **Real Estate Portal** built using the **MERN Stack**. HomeN
 **Krishna Gopal**
 
 GitHub: https://github.com/Krishna438tech  
-LinkedIn: Add LinkedIn Profile Link Here
+LinkedIn: https://www.linkedin.com/in/krishna-gopal-9a73b6326/
 
 ---
 
