@@ -17,15 +17,15 @@ LinkedIn: Add LinkedIn Profile Link Here
 
 ### 🚀 Frontend
 
-🔗 Add Frontend Live Link Here
+🔗 https://homenest-real-estate-portal.vercel.app
 
 ### ⚙️ Backend API
 
-🔗 Add Backend API Link Here
+🔗 https://homenest-backend-rxwm.onrender.com
 
 ### 📂 GitHub Repository
 
-🔗 https://github.com/Krishna438tech/3Skill-Internship-Tasks
+🔗 https://github.com/Krishna438tech/3Skill-Internship-Tasks/tree/main/Task-6_Real_Estate_Portal
 
 ---
 
